@@ -1,0 +1,32 @@
+{
+  "name": "trading-strategy-impl",
+  "type": "module",
+  "scripts": {
+    "dev": "node_modules/.bin/vinxi dev",
+    "build": "node_modules/.bin/vinxi build",
+    "start": "node_modules/.bin/vinxi start",
+    "version": "node_modules/.bin/vinxi version"
+  },
+  "dependencies": {
+    "@solid-primitives/refs": "^1.0.8",
+    "@solidjs/meta": "^0.29.4",
+    "@solidjs/router": "^0.13.6",
+    "@solidjs/start": "^1.0.9",
+    "@suid/icons-material": "^0.8.1",
+    "@suid/material": "^0.18.0",
+    "@suid/vite-plugin": "^0.3.1",
+    "@tanstack/solid-table": "^8.20.5",
+    "echarts": "^5.5.1",
+    "openapi-fetch": "^0.9.8",
+    "plotly.js-dist": "^2.35.2",
+    "solid-js": "^1.9.3",
+    "vinxi": "^0.3.14"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@suid/types": "^0.7.1",
+    "@types/plotly.js": "^2.33.5"
+  }
+}
